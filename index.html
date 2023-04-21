@@ -138,16 +138,31 @@
           <h2 class="section-title">What are we doing</h2>
           <ul class="list project-list">
             <li class="project-card">
-              <img src="./images/projects/apple-imac.jpg" alt="Apple iMac" />
+              <img
+                srcset="
+                  ./images/projects/apple-imac@1x.jpg 1x,
+                  ./images/projects/apple-imac@2x.jpg 2x
+                "
+                src="./images/projects/apple-imac.jpg"
+                alt="Apple iMac"
+              />
             </li>
             <li class="project-card">
               <img
+                srcset="
+                  ./images/projects/iphone-screens@1x.jpg 1x,
+                  ./images/projects/iphone-screens@2x.jpg 2x
+                "
                 src="./images/projects/iphone-screens.jpg"
                 alt="iPhone screens"
               />
             </li>
             <li class="project-card">
               <img
+                srcset="
+                  ./images/projects/man-use-iphone@1x.jpg 1x,
+                  ./images/projects/man-use-iphone@2x.jpg 2x
+                "
                 src="./images/projects/man-use-iphone.jpg"
                 alt="Man use an iPhone"
               />
@@ -676,7 +691,7 @@
       <address class="address">
         <ul class="address-list">
           <li class="address-item">
-            <a class="address-link link" href="tel:+110001111111"
+            <a class="address-link tel link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>

@@ -1275,11 +1275,11 @@ img {
   transition: color var(--duration-and-timing-function);
 }
 
-.address-link:hover,
-.address-link:focus {
+.address-link.tel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-color);
 }
