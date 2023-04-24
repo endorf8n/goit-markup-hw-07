@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Header  -->
-    <header class="page-header">
+    <!-- <header class="page-header">
       <div class="container header-container">
         <nav class="nav">
           <a class="logo link" href="./index.html"
@@ -39,8 +39,18 @@
             </li>
           </ul>
         </nav>
+        <button
+          class="burger-btn js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="burger-btn-icon" width="32" height="22">
+            <use href="./images/icon.svg#icon-burger-btn"></use>
+          </svg>
+        </button>
         <address class="contacts">
-          <ul class="list nav-list">
+          <ul class="list contacts-list">
             <li class="contacts-item">
               <a class="contact-info link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -54,7 +64,7 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
     <!-- main content  -->
     <main>
       <section class="portfolio-section">
@@ -77,7 +87,7 @@
               <button type="button" class="filter-btn button">Marketing</button>
             </li>
           </ul>
-          <ul class="list portfolio-list">
+          <!-- <ul class="list portfolio-list">
             <li class="portfolio-card">
               <a href="" class="link portfolio-link">
                 <div class="portfolio-thumb">
@@ -258,11 +268,11 @@
                 </div>
               </a>
             </li>
-          </ul>
+          </ul> -->
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-inner">
         <div class="footer-slogan">
           <a href="./index.html" class="logo link"
@@ -332,14 +342,101 @@
               placeholder="E-mail"
             />
             <button class="footer-form-btn button" type="submit">
-              Subscribe
+              Subscribe<svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-subscribe"></use>
+              </svg>
             </button>
-            <svg class="footer-form-icon" width="24" height="24">
-              <use href="./images/icon.svg#icon-subscribe"></use>
-            </svg>
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
+    <!-- Mobile-menu  -->
+    <!-- <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <button class="mobile-menu-close-btn js-close-menu">
+        <svg class="close-btn-icon" width="8" height="8">
+          <use href="./images/icon.svg#close-modal"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="./index.html">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link act link" href="">Contacts</a>
+        </li>
+      </ul>
+      <address class="address">
+        <ul class="address-list">
+          <li class="address-item">
+            <a class="address-link tel link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="address-item">
+            <a class="address-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="social-list list">
+          <li class="social-list-item">
+            <a
+              href=""
+              class="social-list-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="link to instagram"
+              ><svg class="social-list-icon" width="24" height="24">
+                <use href="./images/icon.svg#instagram"></use></svg
+            ></a>
+          </li>
+          <li class="social-list-item">
+            <a
+              href=""
+              class="social-list-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="link to twitter"
+              ><svg class="social-list-icon" width="24" height="24">
+                <use href="./images/icon.svg#twitter"></use></svg
+            ></a>
+          </li>
+          <li class="social-list-item">
+            <a
+              href=""
+              class="social-list-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="link to facebook"
+              ><svg class="social-list-icon" width="24" height="24">
+                <use href="./images/icon.svg#facebook"></use></svg
+            ></a>
+          </li>
+          <li class="social-list-item">
+            <a
+              href=""
+              class="social-list-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="link to linkedin"
+              ><svg class="social-list-icon" width="24" height="24">
+                <use href="./images/icon.svg#linkedin"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </address>
+    </div> -->
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
